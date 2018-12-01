@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #698F3F;
+    font-family: sans-serif;
+    color: white;
+}
+
+.site-name {
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+.navigation {}
+
+.navigation-list {
+    display: flex;
+    list-style-type: none;
+}
+.nav-link {
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.mid-section {
+    display: flex;
+}
+
+.main-content {
+    order: 1;
+    flex: 3;
+    padding: 3rem;
+}
+
+h1 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 2.5rem;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.sidebar {
+    padding: 1rem;
+    background-color: #E7DECD;
+}
+
+.sidebar-title {
+
+}
+
+.sidebar-image {
+}
+
+img {
+    max-width: 100%;
+}
+
+.sidebar-left {
+    order: 0;
+    flex: 1;
+}
+.sidebar-right {
+    order: 2;
+    flex: 1;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: #804E49;
+    color: white;
+}
+
