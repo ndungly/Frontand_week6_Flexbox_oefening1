@@ -108,20 +108,17 @@ img {
     color: white;
 }
 
-/*styling for mobile*/
+/*styling for tablet*/
+
 @media only screen and (max-width: 1000px) {
 
-    .navigation-list {
-        flex-wrap: wrap;
-        align-items: space-around;
-        align-content: space-around;
+    .header {
+        flex-direction: column;
     }
 
-
-    /*de navigatie werkt nog niet lekker na wrapping van de list items. Items lijken te overlappen waardoor ik een hover state krijg van de ene li terwijl ik op de andere sta*/
-    
-    .nav-link {
-    padding: none;
+    .navigation-list {
+        padding: 1rem;
+        justify-content: space-around;
     }
 
     .nav-link:hover {
@@ -142,4 +139,20 @@ img {
     .sidebar-image {
         padding-bottom: 2rem;
     }
+}
+
+/*styling for mobile*/
+
+@media only screen and (max-width: 600px) {
+
+    .navigation-list {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        text-align: center;
+        padding: 1rem;
+        display: block;
+    }
+
 }
